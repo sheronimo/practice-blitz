@@ -1,0 +1,278 @@
+/** Global **/
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.fixed-width {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.block {
+    display: block;
+}
+
+.content-spacing {
+    margin-bottom: 3rem;
+}
+
+.heading-font {
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.default-text {
+    margin: 1rem 0;
+    line-height: 140%;
+}
+
+.clear-linkstyle {
+    text-decoration: none;
+    color: inherit;
+}
+
+.more-links {
+    font-size: 1.3rem;
+}
+
+.more-links-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: inherit;
+}
+
+.separator-bar {
+    display: block;
+    border: 0;
+    height: 5px;
+    background: url("../images/pattern.png") left top repeat-x;
+}
+
+/** Page Header **/
+.page-header {
+    border-top: 7px solid #eaeaea;
+    padding-bottom: 2em;
+}
+
+.nav-bar {
+    float: right;
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 3rem;
+    padding-top: 3rem;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-desc {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: rgb(165, 165, 165);
+}
+
+/** Main Visual **/
+
+.main-visual-caption {
+    background-color: rgb(247, 247, 247);
+    padding: 1.5rem 1rem 0 1rem;
+}
+
+/** Marketing **/
+
+.marketing-piece {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+.marketing-piece:last-child {
+    margin-right: 0;
+}
+
+.marketing-heading-icon {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(154, 154, 154);
+    float: left;
+    width: 25%;
+}
+
+.marketing-heading {
+    float: right;
+    width: 75%;
+}
+
+/** Portfolio **/
+
+.portfolio:before {
+    content: " ";
+    display: block;
+    height: 1.8rem;
+    background: url("../images/pattern.png") left top repeat-x;
+    margin-bottom: 2em;
+}
+
+.heading-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.portfolio-heading {
+    display: inline;
+    background-color: #FFF;
+    padding: 0.8em;
+}
+
+.portfolio-img {
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-piece {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.portfolio-piece:last-child {
+    margin-right: 0;
+}
+
+/** Page Footer **/
+
+.page-footer::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-image: url("../images/pattern.png");
+}
+
+.page-footer {
+    background-color: rgb(244, 244, 244);
+    color: rgb(155, 155, 155);
+    font-size: 1rem;
+    height: 70px;
+}
+
+.page-footer-content {
+    padding: 2em 0;
+}
+
+.copyright {
+    float: left;
+}
+
+.credit {
+    float: right;
+}
+
+/** About Us Blurb **/
+
+.blurb {
+    margin-top: 3rem;
+}
+
+.blurb::after {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-image: url("../images/pattern.png");
+}
+
+.blurb-heading {
+    font-size: 2rem;
+}
+
+.blurb-text {
+    width: 60%;
+    color: #9e9e9e;
+}
+
+/** Company Values **/
+
+.values-piece {
+    float: left;
+    width: 31%;
+    margin-right: 3%;
+}
+
+.values-piece:last-child {
+    margin-right: 0;
+}
+
+.values-tagline {
+    color: #9e9d9d;
+}
+
+/** Company Staff **/
+
+.staff-piece {
+    float: left;
+    width: 31%;
+    margin-right: 3%;
+    border: 1px solid #f0f0f0;
+}
+
+.staff-piece:last-child {
+    margin-right: 0;
+}
+
+.staff-img {
+    width: 100%;
+}
+
+.staff-details-wrapper {
+    padding: 1em;
+}
+
+.staff-credentials-container {
+    display: flex;
+}
+
+.staff-role {
+    font-size: 0.7em;
+    color: rgb(165, 165, 165);
+}
+
+.staff-phone {
+    margin-left: auto;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
